@@ -1,0 +1,18 @@
+{% extends "views/layouts/base.twig.html" %}
+{% block title %}
+	Homepage
+{% endblock %}
+
+{% block header %}
+	{% include "views/components/header.twig.html" %}
+{% endblock %}
+
+{% block content %}
+	<main id="main" class="site-main">
+		{% include "views/components/hero.twig.html" %}
+	</main>
+{% endblock %}
+
+{% block footer %}
+	{% include "views/components/footer.twig.html" %}
+{% endblock %}

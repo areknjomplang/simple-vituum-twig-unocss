@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <title>{% block title %}Document{% endblock %} - MySite</title>
+        {% block head %}{% endblock %}
+    </head>
+
+    <body>
+        <header id="masthead" class="site-header">
+            {% block header %}
+            <div>Header Area</div>
+            {% endblock %}
+        </header>
+        <div id="content" class="site-content">
+            {% block content %}
+            <div>Content Area</div>
+            {% endblock %}
+        </div>
+        <footer id="colophon" class="site-footer">
+            {% block footer %}
+            <div>Footer Area</div>
+            {% endblock %}
+        </footer>
+        <script type="module" src="/src/scripts/main.ts"></script>
+        {% block javascript %}{% endblock %}
+    </body>
+
+</html>
