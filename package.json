@@ -20,5 +20,17 @@
     "unocss-preset-autoprefixer": "^0.0.7",
     "vite": "^5.4.14",
     "vituum": "^1.1.1"
-  }
+  },
+  "browserslist": [
+    ">= 0.25%",
+    "last 2 major versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "Firefox ESR",
+    "not Explorer <= 11",
+    "Android >= 4.0",
+    "iOS >= 12",
+    "Safari >= 12"
+  ]
 }
